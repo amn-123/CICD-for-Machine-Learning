@@ -49,7 +49,7 @@ predictions = pipe.predict(X_test)
 accuracy = accuracy_score(y_test, predictions)
 f1 = f1_score(y_test, predictions, average="macro")
 
-print("Accuracy:", str(round(accuracy, 2) * 100) + "%", "F1:", round(f1, 2))
+print("Accuracy: ", str(round(accuracy, 2) * 100) + "%", "F1:", round(f1, 2))
 
 
 ## Confusion Matrix Plot

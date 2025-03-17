@@ -1,11 +1,11 @@
 ---
 title: Drug Classification
-emoji: 💊
-colorFrom: yellow
-colorTo: red
+emoji: 🦀
+colorFrom: green
+colorTo: pink
 sdk: gradio
-sdk_version: 5.7.1
-app_file: drug_app.py
+sdk_version: 5.21.0
+app_file: app.py
 pinned: false
 license: apache-2.0
 ---
